@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "telegram_token": "6966539103:AAG8K-MRW4yIZW7rjpb5lXae_4_A4EPji8w",
+    "chat_id": "6366006828"
+
+  }
+}
