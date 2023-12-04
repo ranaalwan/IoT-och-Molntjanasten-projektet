@@ -1,4 +1,4 @@
-# IoT-och-Molntjanasten-projektet
+#IoT-och-Molntjanasten-projektet
 
 <h1 align="center" id="top">Projekt om Azure IoT Hub med ESP8266</h1>
 
@@ -22,7 +22,7 @@ Den analyserade datan visualiseras i Power BI.
 
 ### Komponenter
 
-- Sensorer: PIR-sensor(HC-SR501), ljudsensor( KY-037) på ESP8266 IoT-enheten.
+- Sensorer: PIR-sensor(HC-SR501), ljudsensor( KY-037).
 - IoT-enhet: ESP8266-mikrokontroller för datainsamling.
 - IoT Hub: Azure IoT Hub för molnbaserad kommunikation och lagring.
 - Azure-funktion: Behandlar data och skickar meddelanden till Telegram.
