@@ -80,10 +80,11 @@ En IoT-enhet (din ESP8266-enheter från ditt projekt) är ansvarig för att saml
 
 3-IoT Hub:
 Enheten skickar data till Azure IoT Hub.
-<br>
-<br>
+
+
 <img src="bilder/iotHub.png" width="800"/>
-<br>
+
+
 
 Konfigurera ditt projekt med nödvändiga uppgifter som WiFi-anslutning, Azure IoT Hub FQDN, enhets-ID och enhetsnyckel.
 
