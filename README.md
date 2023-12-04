@@ -4,7 +4,7 @@
 
 ## Innehållsförteckning.
 
-- [Projekt beskrivning](#projekt/beskrivning)
+- [Projekt beskrivning](#projekt-beskrivning)
     - [Komponenter](#komponenter)
 - [Översikt](#översikt)
 - [Instruktioner](#instruktioner)
@@ -81,7 +81,9 @@ En IoT-enhet (din ESP8266-enheter från ditt projekt) är ansvarig för att saml
 3-IoT Hub:
 Enheten skickar data till Azure IoT Hub.
 <br>
+<br>
 <img src="bilder/iotHub.png" width="800"/>
+<br>
 
 Konfigurera ditt projekt med nödvändiga uppgifter som WiFi-anslutning, Azure IoT Hub FQDN, enhets-ID och enhetsnyckel.
 
@@ -149,6 +151,7 @@ Använd Power BI för att ansluta till Stream Analytics och skapa realtidsdiagra
 
 
 ## Sammanfatning
+
 Projektet integrerar ESP8266 med Azure IoT Hub för övervakning av rörelse och ljudnivå. Data analyseras och lagras i Cosmos DB, och användare informeras via Telegram-bottjänsten. Visualisering utförs i realtid med hjälp av Power BI. Projektet möjliggör en omfattande lösning för övervakning och analys av miljöförhållanden.
 
 <p align="right">(<a href="#top">tillbaka till toppen</a>)</p>
