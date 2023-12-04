@@ -35,7 +35,7 @@ Den analyserade datan visualiseras i Power BI.
 
 ## Översikt   
 
-<img src="bilder/IoTProjektet-ESP8266.png" width="800"/>
+<img src="bilder/Diagram2.drawio.png" width="800"/>
 
 
 Projektet syftar till att övervaka rörelse och ljudnivå i en given miljö för att förbättra säkerheten och automatisera åtgärder baserat på upptäckta händelser.<br>
@@ -80,6 +80,7 @@ En IoT-enhet (din ESP8266-enheter från ditt projekt) är ansvarig för att saml
 
 3-IoT Hub:
 Enheten skickar data till Azure IoT Hub.
+<br>
 <img src="bilder/iotHub.png" width="800"/>
 
 Konfigurera ditt projekt med nödvändiga uppgifter som WiFi-anslutning, Azure IoT Hub FQDN, enhets-ID och enhetsnyckel.
@@ -101,6 +102,7 @@ Konfigurera ditt projekt med nödvändiga uppgifter som WiFi-anslutning, Azure I
 
 4-Cosmos DB:
 Konfigurera en Cosmos DB-databas för att lagra de analyserade sensordata.
+
 <img src="bilder/cosmosDB.png" width="800"/>
 
 
