@@ -113,8 +113,11 @@ Konfigurera en Cosmos DB-databas för att lagra de analyserade sensordata.
 
 <img src="bilder/cosmosDB.png" width="800"/>
 
+5-Azure Storage:
+Azure Storage fungerar som den utsedda plattformen för fillagringsbehov. All data som genereras av Azure IoT Hub lagras effektivt i en angiven behållare i JSON-format. Detta utnyttjar Azure Storages kapacitet för högtillgänglig, skalbar och säker molnlagring av olika dataobjekt.
 
-5-Azure Function:
+
+6-Azure Function:
 Anslut en Azure-funktion till IoT Hub med hjälp av Event Grid eller andra metoder för att lyssna på inkommande data.
 Konfigurera Azure-funktionen för att bearbeta och analysera den inkommande sensordatan.
 
@@ -124,7 +127,7 @@ Konfigurera Azure-funktionen för att bearbeta och analysera den inkommande sens
 //from azure.cosmos import CosmosClient
 ```
 
-6-Telegram:
+7-Telegram:
 Inom Azure-funktionen kan du integrera Telegram för att skicka meddelanden. Detta kan göras med hjälp av Telegrams API och rätt autentiseringsnycklar.
 
 
@@ -137,7 +140,7 @@ Inom Azure-funktionen kan du integrera Telegram för att skicka meddelanden. Det
 
 <img src="bilder/telegram.png" width="600"/>
 
-7-IoT Hub Stream Analytics:
+8-IoT Hub Stream Analytics:
 
 Skapa en Stream Analytics-jobb i Azure Portal som lyssnar på dataströmmen från IoT Hub.
 Konfigurera regler för att filtrera och bearbeta den önskade informationen.
@@ -145,7 +148,7 @@ Konfigurera regler för att filtrera och bearbeta den önskade informationen.
 <img src="bilder/streamanlyics.png" width="800"/>
 
 
-8-Power BI:
+9-Power BI:
 Använd Power BI för att ansluta till Stream Analytics och skapa realtidsdiagram och visualiseringar av sensordatan.
 
 
