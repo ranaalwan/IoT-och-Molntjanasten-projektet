@@ -120,8 +120,10 @@ Konfigurera en Cosmos DB-databas för att lagra de analyserade sensordata.
 <br>
 5-Azure Storage:
 Azure Storage fungerar som den utsedda plattformen för fillagringsbehov. All data som genereras av Azure IoT Hub lagras effektivt i en angiven behållare i JSON-format. Detta utnyttjar Azure Storages kapacitet för högtillgänglig, skalbar och säker molnlagring av olika dataobjekt.
+
 <br>
 
+<br>
 ```
 {"EnqueuedTimeUtc":"2023-11-29T16:54:24.0950000Z","Properties":{},"SystemProperties":{"connectionDeviceId":"esp82","connectionAuthMethod":"{\"scope\":\"device\",\"type\":\"sas\",\"issuer\":\"iothub\",\"acceptingIpFilterRule\":null}","connectionDeviceGenerationId":"638361874986776560","contentType":"application/json;charset=utf-8","enqueuedTime":"2023-11-29T16:54:24.0950000Z"},"Body":{"motion":1,"sound":52,"counter":1}}
 ```
