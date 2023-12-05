@@ -4,7 +4,7 @@
 
 ## Innehållsförteckning.
 
-- [Projekt beskrivning](#projekt*beskrivning)
+- [Projekt beskrivning](#projekt-beskrivning)
     - [Komponenter](#komponenter)
 - [Översikt](#översikt)
 - [Instruktioner](#instruktioner)
