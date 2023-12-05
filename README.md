@@ -155,7 +155,10 @@ Använd Power BI för att ansluta till Stream Analytics och skapa realtidsdiagra
 
 <a href="bilder/PowerBI-projekte.pdf" target="_blank">Öppna PDF</a>
 
-## Säkerhet och skalbarhet
+
+<p align="right">(<a href="#top">tillbaka till toppen</a>)</p>
+
+## Säkerhet och Skalbarhet
 
 För ökad säkerhet och skalbarhet i detta projekt skulle det vara fördelaktigt att införliva ett antal åtgärder.
 
