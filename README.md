@@ -11,7 +11,7 @@
     - [Kopplingsschema](#kopplingsschema)
     - [Installation](#Installation)
 - [Uppstart](#uppstart)
-- [Säkerhet och skalbarhet](#Säkerhetochskalbarhet)
+- [Säkerhet och skalbarhet](#Säkerhet-och-skalbarhet)
 - [Sammanfatning](#sammanfatning)
 
 
