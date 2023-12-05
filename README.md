@@ -58,6 +58,8 @@ Kopplingen beror på vilken version av ESP8266 och ljud- och rörelsesensorer du
 
 <img src="bilder/iotdevis.png" width="800"/>
 
+<br>
+
 <p align="right">(<a href="#top">tillbaka till toppen</a>)</p>
 
 ### Installation
@@ -107,6 +109,7 @@ Konfigurera ditt projekt med nödvändiga uppgifter som WiFi-anslutning, Azure I
 #define IOT_CONFIG_DEVICE_ID "Device ID"
 #define IOT_CONFIG_DEVICE_KEY "Device Key"
 ```
+<br>
 
 4-Cosmos DB:
 Konfigurera en Cosmos DB-databas för att lagra de analyserade sensordata.
@@ -114,13 +117,15 @@ Konfigurera en Cosmos DB-databas för att lagra de analyserade sensordata.
 <img src="bilder/cosmosDB.png" width="800"/>
 
 <br>
+<br>
 5-Azure Storage:
 Azure Storage fungerar som den utsedda plattformen för fillagringsbehov. All data som genereras av Azure IoT Hub lagras effektivt i en angiven behållare i JSON-format. Detta utnyttjar Azure Storages kapacitet för högtillgänglig, skalbar och säker molnlagring av olika dataobjekt.
+<br>
 
 ```
 {"EnqueuedTimeUtc":"2023-11-29T16:54:24.0950000Z","Properties":{},"SystemProperties":{"connectionDeviceId":"esp82","connectionAuthMethod":"{\"scope\":\"device\",\"type\":\"sas\",\"issuer\":\"iothub\",\"acceptingIpFilterRule\":null}","connectionDeviceGenerationId":"638361874986776560","contentType":"application/json;charset=utf-8","enqueuedTime":"2023-11-29T16:54:24.0950000Z"},"Body":{"motion":1,"sound":52,"counter":1}}
 ```
-
+<br>
 6-Azure Function:
 Anslut en Azure-funktion till IoT Hub med hjälp av Event Grid eller andra metoder för att lyssna på inkommande data.
 Konfigurera Azure-funktionen för att bearbeta och analysera den inkommande sensordatan.
