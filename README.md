@@ -35,7 +35,7 @@ Den analyserade datan visualiseras i Power BI.
 
 ## Översikt   
 
-<img src="bilder/Diagram2.drawio.png" width="800"/>
+<img src="bilder/diagram.png" width="800"/>
 
 
 Projektet syftar till att övervaka rörelse och ljudnivå i en given miljö för att förbättra säkerheten och automatisera åtgärder baserat på upptäckta händelser.<br>
