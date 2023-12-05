@@ -11,6 +11,7 @@
     - [Kopplingsschema](#kopplingsschema)
     - [Installation](#Installation)
 - [Uppstart](#uppstart)
+- [Säkerhet och skalbarhet](#Säkerhet)
 - [Sammanfatning](#sammanfatning)
 
 
@@ -154,6 +155,21 @@ Använd Power BI för att ansluta till Stream Analytics och skapa realtidsdiagra
 
 <a href="bilder/PowerBI-projekte.pdf" target="_blank">Öppna PDF</a>
 
+## Säkerhet och skalbarhet
+
+För ökad säkerhet och skalbarhet i detta projekt skulle det vara fördelaktigt att införliva ett antal åtgärder.
+
+Azure Device Provisioning Service effektiviserar introduktionsprocessen för IoT-enheter, automatiserar registrering och tillhandahåller centraliserad nyckel- och certifikathantering. Detta stärker inte bara säkerheten utan förenklar även driftsättningen av nya enheter, vilket bidrar till projektets skalbarhet.
+
+Implementering av Azure Key Vault, certifikat och Hardware Security Modules (HSM) är avgörande för att skydda känslig information som nycklar och lösenord. Detta säkerställer att konfidentiell data inte exponeras i firmware eller laddas upp till arkiv.
+
+Att utnyttja Azures skalbara och flexibla betalningsplaner möjliggör dessutom kostnadseffektiv skalning baserat på användningsmönster. Dessutom bidrar de inneboende IoT-säkerhetsfunktionerna som tillhandahålls direkt från Azure-hubben till en robust säkerhetsställning för hela systemet.
+
+Implementering av MQTTS-protokollet (MQTT Secure). MQTTS förbättrar dataöverföringssäkerheten genom att lägga till kryptering. I projektet är detta tillämpligt när IoT-noder, såsom Node-MCU ESP8266, utbyter data med Azure IoT Hub med hjälp av MQTT-protokollet. Datakryptering säkerställer säker informationsöverföring, vilket minimerar riskerna för avlyssning eller obehörig åtkomst.
+
+Se till att din Telegram-bottoken är lagrad på en säker plats, till exempel Azure Key Vault. Att säkra Telegram Bot-token förhindrar dess läckage och oavsiktlig användning. Detta är en kritisk säkerhetsaspekt som bör beaktas under projektets genomförande.
+
+Genom att anta dessa åtgärder mildrar projektet inte bara sårbarheter och obehörig åtkomst utan skapar också en grund för säker och skalbar IoT-verksamhet.
 
 ## Sammanfatning
 
