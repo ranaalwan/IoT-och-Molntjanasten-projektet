@@ -4,14 +4,14 @@
 
 ## Innehållsförteckning.
 
-- [Projekt beskrivning](#projekt-beskrivning)
+- [Projekt beskrivning](#projekt*beskrivning)
     - [Komponenter](#komponenter)
 - [Översikt](#översikt)
 - [Instruktioner](#instruktioner)
     - [Kopplingsschema](#kopplingsschema)
     - [Installation](#Installation)
 - [Uppstart](#uppstart)
-- [Säkerhet och skalbarhet](#Säkerhet_och_skalbarhet)
+- [Säkerhet och skalbarhet](#Säkerhetochskalbarhet)
 - [Sammanfatning](#sammanfatning)
 
 
