@@ -175,19 +175,26 @@ Använd Power BI för att ansluta till Stream Analytics och skapa realtidsdiagra
 
 ## Säkerhet och Skalbarhet
 
-För ökad säkerhet och skalbarhet i detta projekt skulle det vara fördelaktigt att införliva ett antal åtgärder.
+För att höja säkerhetsnivån och öka skalbarheten i detta projekt finns det flera åtgärder som kan införlivas.
 
-Azure Device Provisioning Service effektiviserar introduktionsprocessen för IoT-enheter, automatiserar registrering och tillhandahåller centraliserad nyckel- och certifikathantering. Detta stärker inte bara säkerheten utan förenklar även driftsättningen av nya enheter, vilket bidrar till projektets skalbarhet.
+1. Användning av Azure Device Provisioning Service:
+Införliva Azure Device Provisioning Service för att effektivisera introduktionsprocessen för IoT-enheter. Detta automatiserar registreringen och ger centraliserad hantering av nycklar och certifikat. Fördelarna inkluderar förstärkt säkerhet och förenklad driftsättning av nya enheter, vilket i sin tur bidrar till projektets övergripande skalbarhet.
 
-Implementering av Azure Key Vault, certifikat och Hardware Security Modules (HSM) är avgörande för att skydda känslig information som nycklar och lösenord. Detta säkerställer att konfidentiell data inte exponeras i firmware eller laddas upp till arkiv.
+2. Implementering av Azure Key Vault, certifikat och Hardware Security Modules (HSM):
+Avgörande för att skydda känslig information som nycklar och lösenord. Genom att använda Azure Key Vault, certifikat och Hardware Security Modules (HSM) säkerställs att konfidentiella data inte exponeras i firmware eller riskerar att laddas upp till arkiv.
 
-Att utnyttja Azures skalbara och flexibla betalningsplaner möjliggör dessutom kostnadseffektiv skalning baserat på användningsmönster. Dessutom bidrar de inneboende IoT-säkerhetsfunktionerna som tillhandahålls direkt från Azure-hubben till en robust säkerhetsställning för hela systemet.
+3. Uttnyttjande av Azure's skalbara betalningsplaner:
+Användning av Azure's skalbara och flexibla betalningsplaner möjliggör kostnadseffektiv skalning baserat på användningsmönster. Denna åtgärd bidrar till att öka projektets skalbarhet och hålla kostnaderna under kontroll.
 
-Implementering av MQTTS-protokollet (MQTT Secure). MQTTS förbättrar dataöverföringssäkerheten genom att lägga till kryptering. I projektet är detta tillämpligt när IoT-noder, såsom Node-MCU ESP8266, utbyter data med Azure IoT Hub med hjälp av MQTT-protokollet. Datakryptering säkerställer säker informationsöverföring, vilket minimerar riskerna för avlyssning eller obehörig åtkomst.
+4. Implementering av MQTTS-protokollet (MQTT Secure):
 
-Se till att din Telegram-bottoken är lagrad på en säker plats, till exempel Azure Key Vault. Att säkra Telegram Bot-token förhindrar dess läckage och oavsiktlig användning. Detta är en kritisk säkerhetsaspekt som bör beaktas under projektets genomförande.
+Införa MQTTS-protokollet för att förbättra säkerheten vid dataöverföring. Genom att lägga till kryptering i kommunikationen mellan IoT-noder, som Node-MCU ESP8266, och Azure IoT Hub med hjälp av MQTT-protokollet, säkerställs en trygg informationsöverföring och minimerar riskerna för avlyssning eller obehörig åtkomst.
 
-Genom att anta dessa åtgärder mildrar projektet inte bara sårbarheter och obehörig åtkomst utan skapar också en grund för säker och skalbar IoT-verksamhet.
+5. Säker lagring av Telegram-bottoken i Azure Key Vault:
+Se till att Telegram-bottoken lagras på en säker plats, såsom Azure Key Vault. Detta säkerställer att bottoken inte läcker och förhindrar oavsiktlig användning. Detta är en viktig säkerhetsåtgärd för att skydda kommunikationen via Telegram.
+
+Genom att implementera dessa åtgärder inte bara adresserar projektet potentiella sårbarheter och obehörig åtkomst utan skapar också en stabil grund för säker och skalbar IoT-verksamhet.
+
 
 ## Sammanfatning
 
