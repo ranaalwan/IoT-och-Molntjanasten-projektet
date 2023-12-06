@@ -187,7 +187,6 @@ Avgörande för att skydda känslig information som nycklar och lösenord. Genom
 Användning av Azure's skalbara och flexibla betalningsplaner möjliggör kostnadseffektiv skalning baserat på användningsmönster. Denna åtgärd bidrar till att öka projektets skalbarhet och hålla kostnaderna under kontroll.
 
 4. Implementering av MQTTS-protokollet (MQTT Secure):
-
 Införa MQTTS-protokollet för att förbättra säkerheten vid dataöverföring. Genom att lägga till kryptering i kommunikationen mellan IoT-noder, som Node-MCU ESP8266, och Azure IoT Hub med hjälp av MQTT-protokollet, säkerställs en trygg informationsöverföring och minimerar riskerna för avlyssning eller obehörig åtkomst.
 
 5. Säker lagring av Telegram-bottoken i Azure Key Vault:
