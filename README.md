@@ -200,3 +200,5 @@ Genom att implementera dessa åtgärder inte bara adresserar projektet potentiel
 Projektet integrerar ESP8266 med Azure IoT Hub för övervakning av rörelse och ljudnivå. Data analyseras och lagras i Cosmos DB, och användare informeras via Telegram-bottjänsten. Visualisering utförs i realtid med hjälp av Power BI. Projektet möjliggör en omfattande lösning för övervakning och analys av miljöförhållanden.
 
 <p align="right">(<a href="#top">tillbaka till toppen</a>)</p>
+
+ ///README har skapats av Rana Alwan///.
