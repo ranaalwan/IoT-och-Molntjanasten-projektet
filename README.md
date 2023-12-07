@@ -36,7 +36,7 @@ Den analyserade datan visualiseras i Power BI.
 
 ## Översikt   
 
-<img src="bilder/diagram.png" width="800" langth="600">
+<img src="bilder/diagram.png" width="800"/>
 
 
 Projektet syftar till att övervaka rörelse och ljudnivå i en given miljö för att förbättra säkerheten och automatisera åtgärder baserat på upptäckta händelser.<br>
@@ -50,13 +50,13 @@ Projektet syftar till att övervaka rörelse och ljudnivå i en given miljö fö
 Kopplingen beror på vilken version av ESP8266 och ljud- och rörelsesensorer du har. För en ESP8266-1 med en ljudsensor och en rörelsesensor kan kopplingen vara följande:
 
 
-<img src="bilder/koppling.png" width="800" langth="600"/>
+<img src="bilder/koppling.png" width="800" />
 
 
 
 <br>
 
-<img src="bilder/iotdevis.png" width="800" langth="600"/>
+<img src="bilder/iotdevis.png" width="800" />
 
 <br>
 
@@ -89,7 +89,7 @@ En IoT-enhet (din ESP8266-enheter från ditt projekt) är ansvarig för att saml
 Enheten skickar data till Azure IoT Hub.
 
 
-<img src="bilder/iotHub.png" width="800" langth="600"/>
+<img src="bilder/iotHub.png" width="800"/>
 
 
 
